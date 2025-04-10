@@ -11,8 +11,7 @@ const spaceMono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "Aditya Akbar",
-  description: "I love tech, cool things,",
-
+  description: "I love tech, cool things, and bringing logic & creativity into everything I do.",
 }
 
 export default function RootLayout({
