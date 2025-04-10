@@ -1,4 +1,4 @@
-import { Skull } from "lucide-react"; 
+import { IoTriangleSharp } from "react-icons/io5";
 import { Twitter, Dribbble, Github, Linkedin } from "lucide-react"
 import Image from "next/image"
 
@@ -8,7 +8,7 @@ export default function Home() {
       <div className="w-full max-w-2xl mx-auto">
         {/* Logo */}
         <div className="flex justify-left mb-8">
-          <Skull className="h-12 w-12 text-white" />
+          <IoTriangleSharp className="h-12 w-12 text-white" />
         </div>
 
         {/* Introduction */}
