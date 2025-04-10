@@ -1,5 +1,6 @@
 import { Skull } from "lucide-react"
 import { Twitter, Dribbble, Github, Linkedin } from "lucide-react"
+import Image from "next/image";
 
 export default function Home() {
   return (
