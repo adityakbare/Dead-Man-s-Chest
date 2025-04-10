@@ -12,10 +12,9 @@ export default function Home() {
 
         {/* Introduction */}
         <div className="mb-16 text-left">
-          <p className="text-neutral-400 text-sm">
-            Aditya is man based in Tangerang, Indonesia.
-            <br />
-            Graduated from communication in 2024.
+          <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar Prasetyanto</h1>
+          <p className="text-neutral-500 text-sm">
+            My name is Aditya, I'm 22 years old self-taught person. I love tech, building cool things, and bringing logic & creativity into everything I do.
           </p>
         </div>
 
@@ -23,92 +22,105 @@ export default function Home() {
         <div className="space-y-6 mb-16">
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
             <div>
-              <h3 className="font-medium">Kraken Studios</h3>
-              <p className="text-neutral-400 text-sm">Creative Director</p>
+              <h3 className="font-medium">Department of Communication and Information</h3>
+              <p className="text-neutral-400 text-sm">Communication Assistant</p>
             </div>
-            <p className="text-neutral-400 text-sm">2020 — Present</p>
+            <p className="text-neutral-400 text-sm">Sept 2023 — Nov 2023</p>
           </div>
 
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">Black Pearl Digital</h3>
-              <p className="text-neutral-400 text-sm">Lead Designer</p>
-            </div>
-            <p className="text-neutral-400 text-sm">2018—2020</p>
-          </div>
+        {/* Featured - Now with a single large showcase */}
+    <div className="mb-16">
+      <h2 className="text-lg mb-6">Featured</h2>
 
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">Tortuga Interactive</h3>
-              <p className="text-neutral-400 text-sm">Senior Designer</p>
-            </div>
-            <p className="text-neutral-400 text-sm">2016—2018</p>
+      <div className="space-y-6">
+        {/* Project 1 */}
+        <div className="border border-neutral-800 p-2">
+          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+            {" "}
+            {/* 900/1280 = 0.703125 */}
+            <Image
+              src="/placeholder.svg?height=900&width=1280"
+              alt="The Kraken Dashboard"
+              fill
+              className="object-cover"
+            />
           </div>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">Davy Jones Media</h3>
-              <p className="text-neutral-400 text-sm">UI/UX Designer</p>
-            </div>
-            <p className="text-neutral-400 text-sm">2015—2016</p>
+          <div className="pt-2">
+            <h3 className="text-sm font-medium">The Kraken Dashboard</h3>
+            <p className="text-neutral-500 text-xs mt-1">UI/UX Design • 2023</p>
           </div>
         </div>
 
-        {/* Awards */}
-        <div className="mb-16">
-          <h2 className="text-lg mb-6">Awards</h2>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
-            <div>
-              <h3 className="font-medium">Awwwards</h3>
-              <p className="text-neutral-400 text-sm">Site of the Day | Excellence in Design</p>
-            </div>
-            <p className="text-neutral-400 text-sm">Dec 15, 2023</p>
+        {/* Project 2 */}
+        <div className="border border-neutral-800 p-2">
+          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+            {" "}
+            {/* 900/1280 = 0.703125 */}
+            <Image
+              src="/placeholder.svg?height=900&width=1280"
+              alt="Siren's Call Mobile App"
+              fill
+              className="object-cover"
+            />
           </div>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">CSS Design Awards</h3>
-              <p className="text-neutral-400 text-sm">Best UI Design | Special Kudos</p>
-            </div>
-            <p className="text-neutral-400 text-sm">Aug 3, 2022</p>
+          <div className="pt-2">
+            <h3 className="text-sm font-medium">Siren's Call Mobile App</h3>
+            <p className="text-neutral-500 text-xs mt-1">Mobile Design • 2022</p>
           </div>
         </div>
 
-        {/* Featured */}
-        <div className="mb-16">
-          <h2 className="text-lg mb-6">Featured</h2>
-
-          <div className="border-b border-neutral-800 pb-4 mb-4">
-            <p className="text-neutral-400 text-sm">2024 — Featured in "Digital Design Masters" by Web Artisan Press</p>
+        {/* Project 3 */}
+        <div className="border border-neutral-800 p-2">
+          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+            {" "}
+            {/* 900/1280 = 0.703125 */}
+            <Image
+              src="/placeholder.svg?height=900&width=1280"
+              alt="Treasure Map Interactive Experience"
+              fill
+              className="object-cover"
+            />
           </div>
+          <div className="pt-2">
+            <h3 className="text-sm font-medium">Treasure Map Interactive Experience</h3>
+            <p className="text-neutral-500 text-xs mt-1">Web Design • 2023</p>
+          </div>
+        </div>
 
-          <div className="border-b border-neutral-800 pb-4">
-            <p className="text-neutral-400 text-sm">2023 — Interview in "The Future of Web" by DesignHub Magazine</p>
+        {/* Project 4 */}
+        <div className="border border-neutral-800 p-2">
+          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+            {" "}
+            {/* 900/1280 = 0.703125 */}
+            <Image
+              src="/placeholder.svg?height=900&width=1280"
+              alt="Black Pearl Corporate Website"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="pt-2">
+            <h3 className="text-sm font-medium">Black Pearl Corporate Website</h3>
+            <p className="text-neutral-500 text-xs mt-1">Web Design • 2022</p>
           </div>
         </div>
 
         {/* Investments Section */}
         <div className="mb-16">
-          <h2 className="text-lg mb-6">Treasure Hunter</h2>
-
-          <p className="text-neutral-400 text-sm mb-8">
-            Invests in promising ventures across the seven seas, focusing on innovative tools for digital explorers and
-            creative buccaneers.
-          </p>
+          <h2 className="text-lg mb-6">Approach</h2>
 
           <div className="space-y-4">
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Sea Chart</p>
+              <p className="font-medium">Communication Management</p>
             </div>
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Compass Point</p>
+              <p className="font-medium">Digital Asset Management</p>
             </div>
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Mariner's Log</p>
+              <p className="font-medium">Publication & Documentation</p>
             </div>
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Siren's Call Studio</p>
+              <p className="font-medium">Content Development</p>
             </div>
           </div>
         </div>
