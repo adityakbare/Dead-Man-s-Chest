@@ -1,5 +1,4 @@
-import { Skull } from "lucide-react"
-import { Twitter, Dribbble, Github, Linkedin } from "lucide-react"
+import { Skull, Twitter, Dribbble, Github, Linkedin } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -28,81 +27,84 @@ export default function Home() {
             </div>
             <p className="text-neutral-400 text-sm">Sept 2023 — Nov 2023</p>
           </div>
+        </div>
 
         {/* Featured - Now with a single large showcase */}
-    <div className="mb-16">
-      <h2 className="text-lg mb-6">Featured</h2>
+        <div className="mb-16">
+          <h2 className="text-lg mb-6">Featured</h2>
 
-      <div className="space-y-6">
-        {/* Project 1 */}
-        <div className="border border-neutral-800 p-2">
-          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-            {" "}
-            {/* 900/1280 = 0.703125 */}
-            <Image
-              src="/placeholder.svg?height=900&width=1280"
-              alt="The Kraken Dashboard"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="pt-2">
-            <h3 className="text-sm font-medium">The Kraken Dashboard</h3>
-            <p className="text-neutral-500 text-xs mt-1">UI/UX Design • 2023</p>
-          </div>
-        </div>
+          <div className="space-y-6">
+            {/* Project 1 */}
+            <div className="border border-neutral-800 p-2">
+              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+                {" "}
+                {/* 900/1280 = 0.703125 */}
+                <Image
+                  src="/placeholder.svg?height=900&width=1280"
+                  alt="The Kraken Dashboard"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="pt-2">
+                <h3 className="text-sm font-medium">The Kraken Dashboard</h3>
+                <p className="text-neutral-500 text-xs mt-1">UI/UX Design • 2023</p>
+              </div>
+            </div>
 
-        {/* Project 2 */}
-        <div className="border border-neutral-800 p-2">
-          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-            {" "}
-            {/* 900/1280 = 0.703125 */}
-            <Image
-              src="/placeholder.svg?height=900&width=1280"
-              alt="Siren's Call Mobile App"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="pt-2">
-            <h3 className="text-sm font-medium">Siren's Call Mobile App</h3>
-            <p className="text-neutral-500 text-xs mt-1">Mobile Design • 2022</p>
-          </div>
-        </div>
+            {/* Project 2 */}
+            <div className="border border-neutral-800 p-2">
+              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+                {" "}
+                {/* 900/1280 = 0.703125 */}
+                <Image
+                  src="/placeholder.svg?height=900&width=1280"
+                  alt="Siren's Call Mobile App"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="pt-2">
+                <h3 className="text-sm font-medium">Siren's Call Mobile App</h3>
+                <p className="text-neutral-500 text-xs mt-1">Mobile Design • 2022</p>
+              </div>
+            </div>
 
-        {/* Project 3 */}
-        <div className="border border-neutral-800 p-2">
-          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-            {" "}
-            {/* 900/1280 = 0.703125 */}
-            <Image
-              src="/placeholder.svg?height=900&width=1280"
-              alt="Treasure Map Interactive Experience"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="pt-2">
-            <h3 className="text-sm font-medium">Treasure Map Interactive Experience</h3>
-            <p className="text-neutral-500 text-xs mt-1">Web Design • 2023</p>
-          </div>
-        </div>
+            {/* Project 3 */}
+            <div className="border border-neutral-800 p-2">
+              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+                {" "}
+                {/* 900/1280 = 0.703125 */}
+                <Image
+                  src="/placeholder.svg?height=900&width=1280"
+                  alt="Treasure Map Interactive Experience"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="pt-2">
+                <h3 className="text-sm font-medium">Treasure Map Interactive Experience</h3>
+                <p className="text-neutral-500 text-xs mt-1">Web Design • 2023</p>
+              </div>
+            </div>
 
-        {/* Project 4 */}
-        <div className="border border-neutral-800 p-2">
-          <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-            {" "}
-            {/* 900/1280 = 0.703125 */}
-            <Image
-              src="/placeholder.svg?height=900&width=1280"
-              alt="Black Pearl Corporate Website"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="pt-2">
-            <h3 className="text-sm font-medium">Black Pearl Corporate Website</h3>
-            <p className="text-neutral-500 text-xs mt-1">Web Design • 2022</p>
+            {/* Project 4 */}
+            <div className="border border-neutral-800 p-2">
+              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+                {" "}
+                {/* 900/1280 = 0.703125 */}
+                <Image
+                  src="/placeholder.svg?height=900&width=1280"
+                  alt="Black Pearl Corporate Website"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="pt-2">
+                <h3 className="text-sm font-medium">Black Pearl Corporate Website</h3>
+                <p className="text-neutral-500 text-xs mt-1">Web Design • 2022</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -153,4 +155,4 @@ export default function Home() {
       </footer>
     </main>
   );
-}
+      }
