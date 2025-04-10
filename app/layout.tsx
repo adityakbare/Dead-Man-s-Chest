@@ -10,9 +10,9 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Dead Man's Chest | Creative Studio",
-  description: "A creative studio crafting legendary digital experiences",
-    generator: 'v0.dev'
+  title: "Aditya Akbar",
+  description: "I love tech, cool things,",
+
 }
 
 export default function RootLayout({
