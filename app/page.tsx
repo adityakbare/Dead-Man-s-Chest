@@ -1,6 +1,6 @@
 import { IoTriangleSharp } from "react-icons/io5";
-import { Instagram, Dribbble, Github, Linkedin } from "lucide-react"
-import Image from "next/image"
+import { Instagram, Dribbble, Github, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar Prasetyanto</h1>
           <p className="text-neutral-500 text-sm">
             A deep sea diver.
-          <br/> From Tangerang, Indonesia.
+            <br />From Tangerang, Indonesia.
           </p>
         </div>
 
@@ -29,11 +29,11 @@ export default function Home() {
             </div>
             <p className="text-neutral-500 text-sm">Sept 2023 — Nov 2023</p>
           </div>
+        </div>
 
         {/* Awards */}
         <div className="mb-16">
           <h2 className="text-lg mb-6">Recognition</h2>
-
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
               <h3 className="font-medium">Bachelor's of Communication</h3>
@@ -41,153 +41,68 @@ export default function Home() {
             </div>
             <p className="text-neutral-500 text-sm">2020 — 2024</p>
           </div>
+        </div>
 
-        {/* Featured - Now with a single large showcase */}
+        {/* Featured */}
         <div className="mb-16">
           <h2 className="text-lg mb-6">Featured</h2>
-
           <div className="space-y-6">
-            {/* Project 1 */}
-            <div className="border border-neutral-800 p-2">
-              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-                {" "}
-                {/* 900/1280 = 0.703125 */}
-                <Image
-                  src="/placeholder.svg?height=900&width=1280"
-                  alt="The Kraken Dashboard"
-                  fill
-                  className="object-cover"
-                />
+            {[ 
+              { title: "The Kraken Dashboard", desc: "UI/UX Design • 2023" },
+              { title: "Siren's Call Mobile App", desc: "Mobile Design • 2022" },
+              { title: "Treasure Map Interactive Experience", desc: "Web Design • 2023" },
+              { title: "Black Pearl Corporate Website", desc: "Web Design • 2022" },
+              { title: "Compass Navigation System", desc: "Product Design • 2023" }
+            ].map((project, idx) => (
+              <div key={idx} className="border border-neutral-800 p-2">
+                <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+                  <Image
+                    src="/placeholder.svg?height=900&width=1280"
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="pt-2">
+                  <h3 className="text-sm font-medium">{project.title}</h3>
+                  <p className="text-neutral-500 text-xs mt-1">{project.desc}</p>
+                </div>
               </div>
-              <div className="pt-2">
-                <h3 className="text-sm font-medium">The Kraken Dashboard</h3>
-                <p className="text-neutral-500 text-xs mt-1">UI/UX Design • 2023</p>
-              </div>
-            </div>
-
-            {/* Project 2 */}
-            <div className="border border-neutral-800 p-2">
-              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-                {" "}
-                {/* 900/1280 = 0.703125 */}
-                <Image
-                  src="/placeholder.svg?height=900&width=1280"
-                  alt="Siren's Call Mobile App"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="pt-2">
-                <h3 className="text-sm font-medium">Siren's Call Mobile App</h3>
-                <p className="text-neutral-500 text-xs mt-1">Mobile Design • 2022</p>
-              </div>
-            </div>
-
-            {/* Project 3 */}
-            <div className="border border-neutral-800 p-2">
-              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-                {" "}
-                {/* 900/1280 = 0.703125 */}
-                <Image
-                  src="/placeholder.svg?height=900&width=1280"
-                  alt="Treasure Map Interactive Experience"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="pt-2">
-                <h3 className="text-sm font-medium">Treasure Map Interactive Experience</h3>
-                <p className="text-neutral-500 text-xs mt-1">Web Design • 2023</p>
-              </div>
-            </div>
-
-            {/* Project 4 */}
-            <div className="border border-neutral-800 p-2">
-              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-                {" "}
-                {/* 900/1280 = 0.703125 */}
-                <Image
-                  src="/placeholder.svg?height=900&width=1280"
-                  alt="Black Pearl Corporate Website"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="pt-2">
-                <h3 className="text-sm font-medium">Black Pearl Corporate Website</h3>
-                <p className="text-neutral-500 text-xs mt-1">Web Design • 2022</p>
-              </div>
-            </div>
-
-            {/* Project 5 */}
-            <div className="border border-neutral-800 p-2">
-              <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-                {" "}
-                {/* 900/1280 = 0.703125 */}
-                <Image
-                  src="/placeholder.svg?height=900&width=1280"
-                  alt="Compass Navigation System"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="pt-2">
-                <h3 className="text-sm font-medium">Compass Navigation System</h3>
-                <p className="text-neutral-500 text-xs mt-1">Product Design • 2023</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 
-        {/* Investments Section */}
+        {/* Activity */}
         <div className="mb-16">
           <h2 className="text-lg mb-6">Activity</h2>
-
           <p className="text-neutral-500 text-sm mb-8">
-            Inspired by Wikipedia’s take on the Pareto Principle, I’m all about investing in skills that pack a big punch. Just like how 1% of Wikipedia editors drive 70% of its content, I focus on high impact areas design, coding, and trend spotting, to make waves in my creative and techy pursuits, whether I’m browsing social media or diving into a good read.
+            Inspired by Wikipedia’s take on the Pareto Principle, I’m all about investing in skills that pack a big punch. Just like how 1% of Wikipedia editors drive 70% of its content, I focus on high impact areas—design, coding, and trend spotting—to make waves in my creative and techy pursuits, whether I’m browsing social media or diving into a good read.
           </p>
 
           <div className="space-y-4">
-            <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">UI Design</p>
-            </div>
-            <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">HTML5 + CSS</p>
-            </div>
-            <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Social Media Trends</p>
-            </div>
-            <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Content Curation</p>
-            </div>
+            {["UI Design", "HTML5 + CSS", "Social Media Trends", "Content Curation"].map((skill, idx) => (
+              <div key={idx} className="border-b border-neutral-800 pb-2">
+                <p className="font-medium">{skill}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Footer with social icons */}
+      {/* Footer */}
       <footer className="w-full border-t border-neutral-800 mt-auto">
         <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
           <div className="flex space-x-8 mb-4 md:mb-0">
-            <a href="#" className="text-white hover:text-neutral-500 transition-colors">
-              <Instagram size={20} />
-              <span className="sr-only">Instagram</span>
-            </a>
-            <a href="#" className="text-white hover:text-neutral-500 transition-colors">
-              <Dribbble size={20} />
-              <span className="sr-only">Dribbble</span>
-            </a>
-            <a href="#" className="text-white hover:text-neutral-500 transition-colors">
-              <Github size={20} />
-              <span className="sr-only">GitHub</span>
-            </a>
-            <a href="#" className="text-white hover:text-neutral-500 transition-colors">
-              <Linkedin size={20} />
-              <span className="sr-only">LinkedIn</span>
-            </a>
+            {[Instagram, Dribbble, Github, Linkedin].map((Icon, idx) => (
+              <a key={idx} href="#" className="text-white hover:text-neutral-500 transition-colors">
+                <Icon size={20} />
+                <span className="sr-only">{Icon.name}</span>
+              </a>
+            ))}
           </div>
           <div className="text-neutral-500 text-sm">© 2025</div>
         </div>
       </footer>
     </main>
-  )
+  );
 }
