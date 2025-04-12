@@ -169,7 +169,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
           <div className="flex space-x-8 mb-4 md:mb-0">
             <a href="#" className="text-white hover:text-neutral-500 transition-colors">
-              <Twitter size={20} />
+              <Instagram size={20} />
               <span className="sr-only">Instagram</span>
             </a>
             <a href="#" className="text-white hover:text-neutral-500 transition-colors">
