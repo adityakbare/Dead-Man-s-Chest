@@ -12,6 +12,9 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Aditya Akbar",
   description: "I love tech, cool things, and bringing logic & creativity into everything I do.",
+  icons:{
+    icon: "/favicon.png", 
+  },
 }
 
 export default function RootLayout({
