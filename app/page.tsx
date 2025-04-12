@@ -1,5 +1,5 @@
 import { IoTriangleSharp } from "react-icons/io5";
-import { Twitter, Dribbble, Github, Linkedin } from "lucide-react"
+import { Instagram, Dribbble, Github, Linkedin } from "lucide-react"
 import Image from "next/image"
 
 export default function Home() {
@@ -13,69 +13,34 @@ export default function Home() {
 
         {/* Introduction */}
         <div className="mb-16 text-left">
-          <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar</h1>
+          <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar Prasetyanto</h1>
           <p className="text-neutral-500 text-sm">
-            A creative studio based in the depths of the digital ocean.
-            <br />
-            Crafting legendary experiences since 2015.
+            A deep sea diver.
+          <br/> From Tangerang, Indonesia.
           </p>
         </div>
 
-        {/* Experience */}
+        {/* Recognition */}
         <div className="space-y-6 mb-16">
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
             <div>
-              <h3 className="font-medium">Kraken Studios</h3>
-              <p className="text-neutral-500 text-sm">Creative Director</p>
+              <h3 className="font-medium">Communications Assistant</h3>
+              <p className="text-neutral-500 text-sm">Department of Communication Tangerang</p>
             </div>
-            <p className="text-neutral-500 text-sm">2020 — Present</p>
+            <p className="text-neutral-500 text-sm">Sept 2023 — Nov 2023</p>
           </div>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">Black Pearl Digital</h3>
-              <p className="text-neutral-500 text-sm">Lead Designer</p>
-            </div>
-            <p className="text-neutral-500 text-sm">2018—2020</p>
-          </div>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">Tortuga Interactive</h3>
-              <p className="text-neutral-500 text-sm">Senior Designer</p>
-            </div>
-            <p className="text-neutral-500 text-sm">2016—2018</p>
-          </div>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">Davy Jones Media</h3>
-              <p className="text-neutral-500 text-sm">UI/UX Designer</p>
-            </div>
-            <p className="text-neutral-500 text-sm">2015—2016</p>
-          </div>
-        </div>
 
         {/* Awards */}
         <div className="mb-16">
-          <h2 className="text-lg mb-6">Awards</h2>
+          <h2 className="text-lg mb-6">Recognition</h2>
 
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
-              <h3 className="font-medium">Awwwards</h3>
-              <p className="text-neutral-500 text-sm">Site of the Day | Excellence in Design</p>
+              <h3 className="font-medium">Bachelor's of Communication</h3>
+              <p className="text-neutral-500 text-sm">Public Relations, Syekh Yusuf Islamic University</p>
             </div>
-            <p className="text-neutral-500 text-sm">Dec 15, 2023</p>
+            <p className="text-neutral-500 text-sm">2020 — 2024</p>
           </div>
-
-          <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
-            <div>
-              <h3 className="font-medium">CSS Design Awards</h3>
-              <p className="text-neutral-500 text-sm">Best UI Design | Special Kudos</p>
-            </div>
-            <p className="text-neutral-500 text-sm">Aug 3, 2022</p>
-          </div>
-        </div>
 
         {/* Featured - Now with a single large showcase */}
         <div className="mb-16">
@@ -176,25 +141,24 @@ export default function Home() {
 
         {/* Investments Section */}
         <div className="mb-16">
-          <h2 className="text-lg mb-6">Treasure Hunter</h2>
+          <h2 className="text-lg mb-6">Activity</h2>
 
           <p className="text-neutral-500 text-sm mb-8">
-            Invests in promising ventures across the seven seas, focusing on innovative tools for digital explorers and
-            creative buccaneers.
+            Inspired by Wikipedia’s take on the Pareto Principle, I’m all about investing in skills that pack a big punch. Just like how 1% of Wikipedia editors drive 70% of its content, I focus on high impact areas design, coding, and trend spotting, to make waves in my creative and techy pursuits, whether I’m browsing social media or diving into a good read.
           </p>
 
           <div className="space-y-4">
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Sea Chart</p>
+              <p className="font-medium">UI Design</p>
             </div>
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Compass Point</p>
+              <p className="font-medium">HTML5 + CSS</p>
             </div>
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Mariner's Log</p>
+              <p className="font-medium">Social Media Trends</p>
             </div>
             <div className="border-b border-neutral-800 pb-2">
-              <p className="font-medium">Siren's Call Studio</p>
+              <p className="font-medium">Content Curation</p>
             </div>
           </div>
         </div>
@@ -206,7 +170,7 @@ export default function Home() {
           <div className="flex space-x-8 mb-4 md:mb-0">
             <a href="#" className="text-white hover:text-neutral-500 transition-colors">
               <Twitter size={20} />
-              <span className="sr-only">Twitter</span>
+              <span className="sr-only">Instagram</span>
             </a>
             <a href="#" className="text-white hover:text-neutral-500 transition-colors">
               <Dribbble size={20} />
