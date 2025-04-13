@@ -56,7 +56,7 @@ export default function Home() {
       { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap4.png" },
     ].map((project, idx) => (
       <div key={idx} className="border border-neutral-800 p-2">
-        <div className="relative w-full" style={{ paddingTop: "60%" }}>
+        <div className="relative w-full" style={{ paddingTop: "50%" }}>
           <Image
             src={`/images/${project.image}`}
             alt={project.title}
@@ -94,11 +94,11 @@ export default function Home() {
       <footer className="w-full border-t border-neutral-800 mt-auto">
         <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
           <div className="flex space-x-8 mb-4 md:mb-0">
-            {[{ Icon: FaInstagram, link: 'https://www.instagram.com/adityakbare' }, { Icon: FaXTwitter, link: 'https://twitter.com/adityakbare' }, { Icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/adityakbare' }].map((Icon, idx) => (
-              <a key={idx} href="#" className="text-white hover:text-neutral-500 transition-colors">
-                <Icon size={20} />
-                <span className="sr-only">{Icon.name}</span>
-              </a>
+            {[{ Icon: FaInstagram, link: 'https://www.instagram.com/adityakbare' }, { Icon: FaXTwitter, link: 'https://twitter.com/adityakbare' }, { Icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/adityakbare' }].map((social, idx) => (
+              <a key={idx} href={social.link} target="_blank" rel="noopener noreferrer" className="text-white hover:text-neutral-500 transition-colors">
+          <social.Icon size={20} />
+          <span className="sr-only">{social.Icon.name}</span>
+               </a>
             ))}
           </div>
           <div className="text-neutral-500 text-sm">© 2025</div>
