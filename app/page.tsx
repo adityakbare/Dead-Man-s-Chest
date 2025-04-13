@@ -45,32 +45,31 @@ export default function Home() {
 
         {/* Featured */}
         <div className="mb-16">
-          <h2 className="text-lg mb-6">Featured</h2>
-          <div className="space-y-6">
-            {[ 
-              { title: "The Kraken Dashboard", desc: "UI/UX Design • 2023" },
-              { title: "Siren's Call Mobile App", desc: "Mobile Design • 2022" },
-              { title: "Treasure Map Interactive Experience", desc: "Web Design • 2023" },
-              { title: "Black Pearl Corporate Website", desc: "Web Design • 2022" },
-              { title: "Compass Navigation System", desc: "Product Design • 2023" }
-            ].map((project, idx) => (
-              <div key={idx} className="border border-neutral-800 p-2">
-                <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
-                  <Image
-                    src="/placeholder.svg?height=900&width=1280"
-                    alt={project.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="pt-2">
-                  <h3 className="text-sm font-medium">{project.title}</h3>
-                  <p className="text-neutral-500 text-xs mt-1">{project.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+  <h2 className="text-lg mb-6">Featured</h2>
+  <div className="space-y-6">
+    {[
+      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap1.png" },
+      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap2.png" },
+      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap3.png" },
+      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap4.png" },
+    ].map((project, idx) => (
+      <div key={idx} className="border border-neutral-800 p-2">
+        <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+          <Image
+            src={`/images/${project.image}`}
+            alt={project.title}
+            fill
+            className="object-cover"
+          />
         </div>
+        <div className="pt-2">
+          <h3 className="text-sm font-medium">{project.title}</h3>
+          <p className="text-neutral-500 text-xs mt-1">{project.desc}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
         {/* Activity */}
         <div className="mb-16">
