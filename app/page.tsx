@@ -54,7 +54,7 @@ export default function Home() {
       { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap4.png" },
     ].map((project, idx) => (
       <div key={idx} className="border border-neutral-800 p-2">
-        <div className="relative w-full" style={{ paddingTop: "70.3125%" }}>
+        <div className="relative w-full" style={{ paddingTop: "68.28%" }}>
           <Image
             src={`/images/${project.image}`}
             alt={project.title}
