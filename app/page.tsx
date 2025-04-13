@@ -1,5 +1,7 @@
 import { IoTriangleSharp } from "react-icons/io5";
-import { Instagram, Dribbble, Github, Linkedin } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,7 +15,7 @@ export default function Home() {
 
         {/* Introduction */}
         <div className="mb-16 text-left">
-          <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar Prasetyanto</h1>
+          <h1 className="text-white text-2xl font-bold mb-4">Aditya A.P.</h1>
           <p className="text-neutral-500 text-sm">
             A deep sea diver.
             <br />From Tangerang, Indonesia.
@@ -89,19 +91,32 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="w-full border-t border-neutral-800 mt-auto">
-        <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
-          <div className="flex space-x-8 mb-4 md:mb-0">
-            {[Instagram, Dribbble, Github, Linkedin].map((Icon, idx) => (
-              <a key={idx} href="#" className="text-white hover:text-neutral-500 transition-colors">
-                <Icon size={20} />
-                <span className="sr-only">{Icon.name}</span>
-              </a>
-            ))}
-          </div>
-          <div className="text-neutral-500 text-sm">© 2025</div>
-        </div>
-      </footer>
+
+<footer className="w-full border-t border-neutral-800 mt-auto">
+  <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
+    
+    {/* Icon Twitter */}
+    <div className="mb-4 md:mb-0">
+      <a href="https://twitter.com" className="text-white hover:text-neutral-500 transition-colors">
+        <FaXTwitter size={20} />
+        <span className="sr-only">X (Twitter)</span>
+      </a>
+    </div>
+
+    {/* Text links */}
+    <div className="flex space-x-6 mb-4 md:mb-0 text-sm">
+      <a href="https://instagram.com" className="text-white hover:text-neutral-500 transition-colors">
+        Instagram
+      </a>
+      <a href="https://linkedin.com" className="text-white hover:text-neutral-500 transition-colors">
+        LinkedIn
+      </a>
+    </div>
+
+    {/* Copyright */}
+    <div className="text-neutral-500 text-sm">© 2025</div>
+  </div>
+</footer>
     </main>
   );
 }
