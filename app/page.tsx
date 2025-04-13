@@ -77,7 +77,7 @@ export default function Home() {
         <div className="mb-16">
           <h2 className="text-lg mb-6">Activity</h2>
           <p className="text-neutral-500 text-sm mb-8">
-            Inspired by Wikipedia’s take on the Pareto Principle, I’m all about investing in skills that pack a big punch. Just like how 1% of Wikipedia editors drive 70% of its content, I focus on high impact areas—design, coding, and trend spotting—to make waves in my creative and techy pursuits, whether I’m browsing social media or diving into a good read.
+            Big fan of the Pareto Principle, basically doing more with less. Instead of spreading focus too thin, it’s all about digging into things that actually make a difference.
           </p>
 
           <div className="space-y-4">
@@ -91,32 +91,19 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-
-<footer className="w-full border-t border-neutral-800 mt-auto">
-  <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
-    
-    {/* Icon Twitter */}
-    <div className="mb-4 md:mb-0">
-      <a href="https://twitter.com" className="text-white hover:text-neutral-500 transition-colors">
-        <FaXTwitter size={20} />
-        <span className="sr-only">X (Twitter)</span>
-      </a>
-    </div>
-
-    {/* Text links */}
-    <div className="flex space-x-6 mb-4 md:mb-0 text-sm">
-      <a href="https://instagram.com" className="text-white hover:text-neutral-500 transition-colors">
-        Instagram
-      </a>
-      <a href="https://linkedin.com" className="text-white hover:text-neutral-500 transition-colors">
-        LinkedIn
-      </a>
-    </div>
-
-    {/* Copyright */}
-    <div className="text-neutral-500 text-sm">© 2025</div>
-  </div>
-</footer>
+      <footer className="w-full border-t border-neutral-800 mt-auto">
+        <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
+          <div className="flex space-x-8 mb-4 md:mb-0">
+            {[{ Icon: FaInstagram, link: 'https://www.instagram.com/adityakbare' }, { Icon: FaXTwitter, link: 'https://twitter.com/adityakbare' }, { Icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/adityakbare' }].map((Icon, idx) => (
+              <a key={idx} href="#" className="text-white hover:text-neutral-500 transition-colors">
+                <Icon size={20} />
+                <span className="sr-only">{Icon.name}</span>
+              </a>
+            ))}
+          </div>
+          <div className="text-neutral-500 text-sm">© 2025</div>
+        </div>
+      </footer>
     </main>
   );
 }
