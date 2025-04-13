@@ -96,12 +96,12 @@ export default function Home() {
           <div className="flex space-x-8 mb-4 md:mb-0">
             {[{ Icon: FaInstagram, link: 'https://www.instagram.com/adityakbare' }, { Icon: FaXTwitter, link: 'https://twitter.com/adityakbare' }, { Icon: FaLinkedinIn, link: 'https://www.linkedin.com/in/adityakbare' }].map((social, idx) => (
               <a key={idx} href={social.link} target="_blank" rel="noopener noreferrer" className="text-white hover:text-neutral-500 transition-colors">
-          <social.Icon size={20} />
+          <social.Icon size={16} />
           <span className="sr-only">{social.Icon.name}</span>
                </a>
             ))}
           </div>
-          <div className="text-neutral-500 text-sm">© 2025</div>
+          <div className="text-neutral-500 text-sm items-center">© 2025</div>
         </div>
       </footer>
     </main>
