@@ -50,10 +50,8 @@ export default function Home() {
   <h2 className="text-lg mb-6">Featured</h2>
   <div className="space-y-6">
     {[
-      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap1.png" },
-      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap2.png" },
-      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap3.png" },
-      { title: "6 Feet Beneath The Moon", desc: "2025", image: "aap4.png" },
+      { title: "Invoice Generator", desc: "2025", image: "Invoise.png" },
+      { title: "Newsletter Signup", desc: "2025", image: "Tickr.png" },
     ].map((project, idx) => (
       <div key={idx} className="border border-neutral-800 p-2">
         <div className="relative w-full" style={{ paddingTop: "50%" }}>
