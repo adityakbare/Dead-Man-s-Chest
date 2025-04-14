@@ -24,10 +24,10 @@ export default function Home() {
         <div className="space-y-6 mb-16">
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
             <div>
-              <h3 className="font-medium">Comm. Assistant</h3>
+              <h3 className="font-medium">Communications Assistant</h3>
               <p className="text-neutral-500 text-sm">Dept. of Communication & Informatics</p>
             </div>
-            <p className="text-neutral-500 text-sm">Sept — Nov 2023</p>
+            <p className="text-neutral-500 text-sm">2023</p>
           </div>
         </div>
 
