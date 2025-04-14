@@ -89,25 +89,25 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-       <footer className="w-full border-t border-neutral-800 mt-auto">
-        <div className="max-w-2xl mx-auto py-8 px-4 flex flex-wrap justify-between items-center">
-          <div className="flex space-x-8 mb-4 md:mb-0">
-            <a href="https://www.twitter.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-              <FaXTwitter size={18} />
-              <span className="sr-only">X</span>
-            </a>
-            <a href="https://www.instagram.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-              <FaInstagram size={18} />
-              <span className="sr-only">Instagram</span>
-            </a>
-            <a href="https://www.linkedin.com/in/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-              <FaLinkedinIn size={18} />
-              <span className="sr-only">LinkedIn</span>
-            </a>
-          </div>
-          <div className="text-neutral-400 text-sm">© 2025</div>
-        </div>
-      </footer>
+      <footer className="w-full border-t border-neutral-800 mt-auto">
+  <div className="max-w-2xl mx-auto py-8 px-4 flex justify-between items-center">
+    <div className="flex space-x-8">
+      <a href="https://www.twitter.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
+        <FaXTwitter size={18} />
+        <span className="sr-only">X</span>
+      </a>
+      <a href="https://www.instagram.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
+        <FaInstagram size={18} />
+        <span className="sr-only">Instagram</span>
+      </a>
+      <a href="https://www.linkedin.com/in/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
+        <FaLinkedinIn size={18} />
+        <span className="sr-only">LinkedIn</span>
+      </a>
+    </div>
+    <div className="text-neutral-400 text-sm whitespace-nowrap">© 2025</div>
+  </div>
+</footer>
     </main>
   );
 }
