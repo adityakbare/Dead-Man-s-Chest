@@ -16,10 +16,8 @@ export default function Home() {
         {/* Introduction */}
         <div className="mb-16 text-left">
           <h1 className="text-white text-2xl font-bold mb-4">Aditya A.P.</h1>
-          <p className="text-neutral-500 text-sm">
-            A deep sea diver.
-            <br />From Tangerang, Indonesia.
-          </p>
+          <p className="text-neutral-500 text-sm">A deep sea diver.</p>
+          <p className="text-neutral-500 text-sm mt-2">From Tangerang, Indonesia.</p>
         </div>
 
         {/* Recognition */}
@@ -27,7 +25,7 @@ export default function Home() {
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
             <div>
               <h3 className="font-medium">Communications Assistant</h3>
-              <p className="text-neutral-500 text-sm">Department of Communication Tangerang</p>
+              <p className="text-neutral-500 text-sm">Depp. of Communication & Informatics</p>
             </div>
             <p className="text-neutral-500 text-sm">Sept 2023 — Nov 2023</p>
           </div>
@@ -38,8 +36,8 @@ export default function Home() {
           <h2 className="text-lg mb-6">Recognition</h2>
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
-              <h3 className="font-medium">Bachelor's of Communication</h3>
-              <p className="text-neutral-500 text-sm">Public Relations, Syekh Yusuf Islamic University</p>
+              <h3 className="font-medium">BA in Communication</h3>
+              <p className="text-neutral-500 text-sm">Syekh Yusuf Islamic University</p>
             </div>
             <p className="text-neutral-500 text-sm">2020 — 2024</p>
           </div>
@@ -75,11 +73,11 @@ export default function Home() {
         <div className="mb-16">
           <h2 className="text-lg mb-6">Activity</h2>
           <p className="text-neutral-500 text-sm mb-8">
-            Big fan of the Pareto Principle, basically doing more with less. Instead of spreading focus too thin, it’s all about digging into things that actually make a difference.
+            I love tech, building things, and bringing logic & creativity into everything I do.
           </p>
 
           <div className="space-y-4">
-            {["UI Design", "HTML5 + CSS", "Social Media Trends", "Content Curation"].map((skill, idx) => (
+            {["HTML5 + CSS", "Information Management", "Digital Asset Management", "Artificial Intelligence"].map((skill, idx) => (
               <div key={idx} className="border-b border-neutral-800 pb-2">
                 <p className="font-medium">{skill}</p>
               </div>
