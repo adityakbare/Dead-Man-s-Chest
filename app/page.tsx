@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
               <h3 className="font-medium">BA in Communication</h3>
-              <p className="text-neutral-500 text-sm">Syekh Yusuf Islamic University</p>
+              <p className="text-neutral-500 text-sm">Universitas Islam Syekh Yusuf Tangerang</p>
             </div>
             <p className="text-neutral-500 text-sm">2020 — 2024</p>
           </div>
