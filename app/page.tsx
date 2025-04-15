@@ -16,7 +16,7 @@ export default function Home() {
         {/* Introduction */}
         <div className="mb-16 text-left">
           <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar</h1>
-          <p className="text-neutral-500 text-sm mt-2">From Tangerang, Indonesia.</p>
+          <p className="text-neutral-500 text-sm mt-2">Based in Tangerang, Indonesia.</p>
         </div>
 
         {/* Recognition */}
@@ -32,7 +32,7 @@ export default function Home() {
 
         {/* Awards */}
         <div className="mb-16">
-          <h2 className="text-lg mb-6">Recognition</h2>
+          <h2 className="text-lg mb-6">Education</h2>
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
               <h3 className="font-medium">BA in Communication</h3>
@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full border-t border-neutral-800 mt-auto">
-  <div className="max-w-2xl mx-auto py-8 px-4 flex justify-between items-center">
+  <div className="max-w-2xl mx-auto py-12 px-4 flex justify-between items-center">
     <div className="flex space-x-8">
       <a href="https://www.twitter.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
         <FaXTwitter size={18} />
