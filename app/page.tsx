@@ -94,11 +94,11 @@ export default function Home() {
         <div className="mb-20">
           <h2 className="text-lg mb-4">Activity</h2>
           <p className="text-neutral-500 text-sm mb-4">
-            Exploring how technology can streamline processes and improve creativity in the design and development space.
+            Exploring how technology can streamline processes and improve work efficiency.
           </p>
 
           <div className="space-y-4">
-            {["Digital System Support", "AI-Assisted Development", "Design Asset Management"].map((skill, idx) => (
+            {["Information Systems", "Digital System Support", "AI-Assisted Development"].map((skill, idx) => (
               <div key={idx} className="border-b border-neutral-800 pb-2">
                 <p className="font-medium">{skill}</p>
               </div>
