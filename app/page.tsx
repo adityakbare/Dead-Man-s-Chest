@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-start pt-20 px-4 bg-black text-white font-mono">
       <div className="w-full max-w-2xl mx-auto">
         {/* Logo */}
-        <div className="flex justify-left mb-12">
+        <div className="flex justify-left mb-14">
           <IoTriangleSharp className="h-12 w-12 text-white" />
         </div>
 
@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Featured */}
 <div className="mb-16">
-  <h2 className="text-lg mb-8">Featured</h2>
+  <h2 className="text-lg mb-4">Featured</h2>
   <div className="space-y-10">
     {[
       {
@@ -92,7 +92,7 @@ export default function Home() {
 
         {/* Activity */}
         <div className="mb-16">
-          <h2 className="text-lg mt-4 mb-4">Activity</h2>
+          <h2 className="text-lg mt-12 mb-4">Activity</h2>
           <p className="text-neutral-500 text-sm mb-4">
             I love tech, building things, and bringing logic & creativity into everything I do.
           </p>
