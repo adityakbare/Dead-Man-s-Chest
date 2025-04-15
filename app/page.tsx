@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-start pt-20 px-4 bg-black text-white font-mono">
       <div className="w-full max-w-2xl mx-auto">
         {/* Logo */}
-        <div className="flex justify-left mb-16">
+        <div className="flex justify-left mb-18">
           <IoTriangleSharp className="h-12 w-12 text-white" />
         </div>
 
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         {/* Recognition */}
-        <div className="space-y-6 mb-16">
+        <div className="space-y-6 mb-18">
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
             <div>
               <h3 className="font-medium">Communications Assistant</h3>
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         {/* Featured */}
-<div className="mb-16">
+<div className="mb-18">
   <h2 className="text-lg mb-4">Featured</h2>
   <div className="space-y-10">
     {[
@@ -91,7 +91,7 @@ export default function Home() {
 </div>
 
         {/* Activity */}
-        <div className="mb-16 mt-16">
+        <div className="mb-18">
           <h2 className="text-lg mb-4">Activity</h2>
           <p className="text-neutral-500 text-sm mb-4">
             Exploring how technology can streamline processes and improve creativity in the design and development space.
@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full border-t border-neutral-800 mt-auto">
-  <div className="max-w-2xl mx-auto py-12 px-4 flex justify-between items-center">
+  <div className="max-w-2xl mx-auto py-14 px-4 flex justify-between items-center">
     <div className="flex space-x-8">
       <a href="https://www.twitter.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
         <FaXTwitter size={18} />
