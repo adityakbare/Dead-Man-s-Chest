@@ -92,8 +92,8 @@ export default function Home() {
 
         {/* Activity */}
         <div className="mb-16">
-          <h2 className="text-lg mb-6">Activity</h2>
-          <p className="text-neutral-500 text-sm mb-8">
+          <h2 className="text-lg mb-4">Activity</h2>
+          <p className="text-neutral-500 text-sm mb-4">
             I love tech, building things, and bringing logic & creativity into everything I do.
           </p>
 
