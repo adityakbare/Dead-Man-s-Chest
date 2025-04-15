@@ -91,7 +91,7 @@ export default function Home() {
 </div>
 
         {/* Activity */}
-        <div className="mb-16">
+        <div className="mb-20">
           <h2 className="text-lg mb-4">Activity</h2>
           <p className="text-neutral-500 text-sm mb-4">
             Exploring how technology can streamline processes and improve creativity in the design and development space.
@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full border-t border-neutral-800 mt-auto">
-  <div className="max-w-2xl mx-auto py-16 px-4 flex justify-between items-center">
+  <div className="max-w-2xl mx-auto py-20 px-4 flex justify-between items-center">
     <div className="flex space-x-8">
       <a href="https://www.twitter.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
         <FaXTwitter size={18} />
