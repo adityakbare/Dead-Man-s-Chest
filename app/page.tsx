@@ -1,5 +1,5 @@
 import { IoTriangleSharp } from "react-icons/io5";
-import { FaInstagram } from "react-icons/fa";
+import { SiInstagram } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from "next/image";
@@ -120,7 +120,7 @@ export default function Home() {
         <span className="sr-only">X</span>
       </a>
       <a href="https://www.instagram.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-        <FaInstagram size={20} />
+        <SiInstagram size={20} />
         <span className="sr-only">Instagram</span>
       </a>
       <a href="https://www.linkedin.com/in/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
