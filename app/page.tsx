@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Featured */}
 <div className="mb-16">
-  <h2 className="text-lg mb-6">Featured</h2>
+  <h2 className="text-lg mb-8">Featured</h2>
   <div className="space-y-10">
     {[
       {
@@ -65,7 +65,7 @@ export default function Home() {
     ].map((project, idx) => (
       <div key={idx}>
         {/* Title and Year */}
-        <div className="mb-2">
+        <div className="mb-4">
           <p className="text-neutral-500 text-sm">
             {project.desc} — <span className="text-white">{project.title}</span>
           </p>
