@@ -98,7 +98,7 @@ export default function Home() {
           </p>
 
           <div className="space-y-4">
-            {["Information Systems", "Digital System Support", "AI-Assisted Development"].map((skill, idx) => (
+            {["Cloud-Based Deployment", "AI-Assisted Development", "Web Application Architecture"].map((skill, idx) => (
               <div key={idx} className="border-b border-neutral-800 pb-2">
                 <p className="font-medium">{skill}</p>
               </div>
