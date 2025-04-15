@@ -1,6 +1,6 @@
 import { IoTriangleSharp } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from "next/image";
 
@@ -116,7 +116,7 @@ export default function Home() {
   <div className="max-w-2xl mx-auto py-20 px-4 flex justify-between items-center">
     <div className="flex space-x-8">
       <a href="mailto:adityakbare@outlook.com" className="text-white hover:text-neutral-400 transition-colors">
-        <HiOutlineMail size={20} />
+        <SiGmail size={20} />
         <span className="sr-only">X</span>
       </a>
       <a href="https://www.instagram.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
