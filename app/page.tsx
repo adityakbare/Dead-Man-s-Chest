@@ -91,21 +91,24 @@ export default function Home() {
 </div>
 
         {/* Activity */}
-        <div className="mb-20">
-          <h2 className="text-lg mb-4">Activity</h2>
-          <p className="text-neutral-500 text-sm mb-4">
-            Exploring how technology can streamline processes and improve work efficiency.
-          </p>
+<div className="mb-8">
+  <h2 className="text-lg mb-4">Activity</h2>
+  <p className="text-neutral-500 text-sm">
+    Developing a foundational understanding of how frontend frameworks, serverless cloud platforms, and DNS systems interact to support modern web architecture and efficient deployment workflows.
+  </p>
+</div>
 
-          <div className="space-y-4">
-            {["Cloud-Based Deployment", "AI-Assisted Development", "Web Application Architecture"].map((skill, idx) => (
-              <div key={idx} className="border-b border-neutral-800 pb-2">
-                <p className="font-medium">{skill}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+{/* Topics */}
+<div className="mb-20">
+  <h2 className="text-lg mb-4">Topics</h2>
+  <div className="space-y-4">
+    {["Cloud-Based Deployment", "AI-Assisted Development", "Web Application Architecture"].map((topic, idx) => (
+      <div key={idx} className="border-b border-neutral-800 pb-2">
+        <p className="font-medium">{topic}</p>
       </div>
+    ))}
+  </div>
+</div>
 
       {/* Footer */}
       <footer className="w-full border-t border-neutral-800 mt-auto">
