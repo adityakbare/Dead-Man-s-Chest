@@ -98,7 +98,7 @@ export default function Home() {
           </p>
 
           <div className="space-y-4">
-            {["Next.js", "Systems Administration", "Digital Asset Management", "Artificial Intelligence"].map((skill, idx) => (
+            {["Digital System Support", "AI-Assisted Development", "Design Asset Management"].map((skill, idx) => (
               <div key={idx} className="border-b border-neutral-800 pb-2">
                 <p className="font-medium">{skill}</p>
               </div>
