@@ -1,6 +1,6 @@
 import { IoTriangleSharp } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from "next/image";
 
@@ -115,8 +115,8 @@ export default function Home() {
       <footer className="w-full border-t border-neutral-800 mt-auto">
   <div className="max-w-2xl mx-auto py-20 px-4 flex justify-between items-center">
     <div className="flex space-x-8">
-      <a href="https://www.twitter.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-        <FaXTwitter size={18} />
+      <a href="mailto:adityakbare@outlook.com" className="text-white hover:text-neutral-400 transition-colors">
+        <HiOutlineMail size={18} />
         <span className="sr-only">X</span>
       </a>
       <a href="https://www.instagram.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
