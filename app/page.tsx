@@ -15,8 +15,7 @@ export default function Home() {
 
         {/* Introduction */}
         <div className="mb-16 text-left">
-          <h1 className="text-white text-2xl font-bold mb-4">Aditya A.P.</h1>
-          <p className="text-neutral-500 text-sm">A deep sea diver.</p>
+          <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar</h1>
           <p className="text-neutral-500 text-sm mt-2">From Tangerang, Indonesia.</p>
         </div>
 
@@ -99,7 +98,7 @@ export default function Home() {
           </p>
 
           <div className="space-y-4">
-            {["HTML5 + CSS", "Information Management", "Digital Asset Management", "Artificial Intelligence"].map((skill, idx) => (
+            {["Next.js", "Systems Administration", "Digital Asset Management", "Artificial Intelligence"].map((skill, idx) => (
               <div key={idx} className="border-b border-neutral-800 pb-2">
                 <p className="font-medium">{skill}</p>
               </div>
