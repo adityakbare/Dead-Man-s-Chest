@@ -128,7 +128,7 @@ export default function Home() {
         <span className="sr-only">LinkedIn</span>
       </a>
     </div>
-    <div className="text-neutral-400 text-sm whitespace-nowrap">© 2025</div>
+    <div className="text-neutral-400 text-sm whitespace-nowrap">©{new Date().getFullYear()}</div>
   </div>
 </footer>
     </main>
