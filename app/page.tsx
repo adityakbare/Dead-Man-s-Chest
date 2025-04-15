@@ -91,10 +91,10 @@ export default function Home() {
 </div>
 
         {/* Activity */}
-        <div className="mb-16 mt-8">
+        <div className="mb-16 mt-16">
           <h2 className="text-lg mb-4">Activity</h2>
           <p className="text-neutral-500 text-sm mb-4">
-            Exploring how technology can streamline processes and enhance creativity in the design and development space.
+            Exploring how technology can streamline processes and improve creativity in the design and development space.
           </p>
 
           <div className="space-y-4">
