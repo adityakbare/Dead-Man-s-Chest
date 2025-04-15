@@ -43,60 +43,61 @@ export default function Home() {
         </div>
 
         {/* Featured */}
-        <div className="mb-20">
-          <h2 className="text-lg mb-4">Featured</h2>
-          <div className="space-y-10">
-            {[
-              {
-                title: "Invoice Generator",
-                desc: "2025",
-                images: ["Invoise.png", "Invoise1.png"],
-                link: "https://invoise.vercel.app"
-              },
-              {
-                title: "Blueprint",
-                desc: "2025",
-                images: ["Blueprint.png"],
-                link: "https://useblueprint.vercel.app" 
-              },
-              {
-                title: "Newsletter Signup",
-                desc: "2025",
-                images: ["Tickr.png"],
-                link: "https://tickrsignup.vercel.app"
-              },
-            ].map((project, idx) => (
-              <div key={idx}>
-                {/* Title and Year as link */}
-                <div className="mb-4">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white hover:underline hover:text-neutral-300 transition-colors text-sm"
-                  >
-                    {project.desc} — {project.title}
-                  </a>
-                </div>
-
-                {/* Images */}
-                <div className="space-y-8">
-                  {project.images.map((img, i) => (
-                    <div key={i} className="w-full border border-neutral-800">
-                      <Image
-                        src={`/images/${img}`}
-                        alt={`${project.title} ${i + 1}`}
-                        width={1000}
-                        height={600}
-                        className="w-full object-cover"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
+<div className="mb-20">
+  <h2 className="text-lg mb-4">Featured</h2>
+  <div className="space-y-10">
+    {[
+      {
+        title: "Invoice Generator",
+        desc: "2025",
+        images: ["Invoise.png", "Invoise1.png"],
+        link: "https://invoise.vercel.app"
+      },
+      {
+        title: "Blueprint",
+        desc: "2025",
+        images: ["Blueprint.png"],
+        link: "https://useblueprint.vercel.app" 
+      },
+      {
+        title: "Newsletter Signup",
+        desc: "2025",
+        images: ["Tickr.png"],
+        link: "https://tickrsignup.vercel.app"
+      },
+    ].map((project, idx) => (
+      <div key={idx}>
+        {/* Title with Link */}
+        <div className="mb-4">
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:underline hover:text-neutral-300 transition-colors text-sm"
+          >
+            {project.title}
+          </a>
+          <span className="text-neutral-500 ml-2">{`— ${project.desc}`}</span>
         </div>
+
+        {/* Images */}
+        <div className="space-y-8">
+          {project.images.map((img, i) => (
+            <div key={i} className="w-full border border-neutral-800">
+              <Image
+                src={`/images/${img}`}
+                alt={`${project.title} ${i + 1}`}
+                width={1000}
+                height={600}
+                className="w-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
         {/* Activity */}
 <div className="mb-8">
