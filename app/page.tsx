@@ -44,14 +44,21 @@ export default function Home() {
         </div>
 
         {/* Featured */}
-        <div className="mb-16">
+<div className="mb-16">
   <h2 className="text-lg mb-6">Featured</h2>
   <div className="space-y-6">
     {[
       { title: "Invoice Generator", desc: "2025", image: "Invoise.png" },
       { title: "Newsletter Signup", desc: "2025", image: "Tickr.png" },
     ].map((project, idx) => (
-      <div key={idx} className="border border-neutral-800 p-2">
+      <div key={idx} className="border border-neutral-800 p-4 space-y-2">
+        {/* Title and Year at the Top */}
+        <div>
+          <p className="text-xs text-neutral-500">{project.desc}</p>
+          <h3 className="text-sm font-medium">{project.title}</h3>
+        </div>
+
+        {/* Image */}
         <div className="relative w-full" style={{ paddingTop: "50%" }}>
           <Image
             src={`/images/${project.image}`}
@@ -59,10 +66,6 @@ export default function Home() {
             fill
             className="object-cover"
           />
-        </div>
-        <div className="pt-2">
-          <h3 className="text-sm font-medium">{project.title}</h3>
-          <p className="text-neutral-500 text-xs mt-1">{project.desc}</p>
         </div>
       </div>
     ))}
