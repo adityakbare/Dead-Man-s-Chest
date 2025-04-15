@@ -48,24 +48,43 @@ export default function Home() {
   <h2 className="text-lg mb-6">Featured</h2>
   <div className="space-y-10">
     {[
-      { title: "Invoice Generator", desc: "2025", image: "Invoise.png" },
-      { title: "Newsletter Signup", desc: "2025", image: "Tickr.png" },
+      {
+        title: "Invoice Generator",
+        desc: "2025",
+        images: ["Invoise.png", "Invoise1.png"],
+      },
+      {
+        title: "Newsletter Signup",
+        desc: "2025",
+        images: ["Tickr.png"],
+      },
+      {
+        title: "Blueprint HRIS",
+        desc: "2025",
+        images: ["Blueprint.png"],
+      },
     ].map((project, idx) => (
       <div key={idx}>
         {/* Title and Year */}
         <div className="mb-2">
-          <p className="text-neutral-500 text-sm">{project.desc} — <span className="text-white">{project.title}</span></p>
+          <p className="text-neutral-500 text-sm">
+            {project.desc} — <span className="text-white">{project.title}</span>
+          </p>
         </div>
 
-        {/* Image */}
-        <div className="w-full border border-neutral-800">
-          <Image
-            src={`/images/${project.image}`}
-            alt={project.title}
-            width={1000}
-            height={600}
-            className="w-full object-cover"
-          />
+        {/* Images */}
+        <div className="space-y-4">
+          {project.images.map((img, i) => (
+            <div key={i} className="w-full border border-neutral-800">
+              <Image
+                src={`/images/${img}`}
+                alt={`${project.title} ${i + 1}`}
+                width={1000}
+                height={600}
+                className="w-full object-cover"
+              />
+            </div>
+          ))}
         </div>
       </div>
     ))}
