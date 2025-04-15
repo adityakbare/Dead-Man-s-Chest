@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         {/* Recognition */}
-        <div className="space-y-6 mb-16">
+        <div className="space-y-6 mb-8">
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4">
             <div>
               <h3 className="font-medium">Communications Assistant</h3>
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Awards */}
-        <div className="mb-16">
+        <div className="mb-8">
           <h2 className="text-lg mb-6">Education</h2>
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         {/* Featured */}
-<div className="mb-16">
+<div className="mb-20">
   <h2 className="text-lg mb-4">Featured</h2>
   <div className="space-y-10">
     {[
