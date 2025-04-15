@@ -14,7 +14,7 @@ export default function Home() {
         </div>
 
         {/* Introduction */}
-        <div className="mb-16 text-left">
+        <div className="mb-14 text-left">
           <h1 className="text-white text-2xl font-bold mb-4">Aditya Akbar</h1>
           <p className="text-neutral-500 text-sm mt-2">Based in Tangerang, Indonesia.</p>
         </div>
