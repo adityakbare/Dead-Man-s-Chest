@@ -60,19 +60,13 @@ export default function Home() {
         images: ["Blueprint.png"],
         link: "https://useblueprint.vercel.app" 
       },
-      {
-        title: "Newsletter Signup",
-        desc: "2025",
-        images: ["Tickr.png"],
-        link: "https://tickrsignup.vercel.app"
-      },
     ].map((project, idx) => (
       <div key={idx}>
         {/* Title and Year */}
         <div className="mb-4">
           <p className="text-neutral-500 text-sm">
             {project.desc} — 
-            <a href={project.link} target="_blank" className="text-white hover:underline ml-1">
+            <a href={project.link} target="_blank" className="text-white hover:underline ml-2">
               {project.title}
             </a>
           </p>
