@@ -71,8 +71,8 @@ export default function Home() {
         {/* Title and Year */}
         <div className="mb-4">
           <p className="text-neutral-500 text-sm">
-            {project.desc} —  
-            <a href={project.link} target="_blank" className="text-white hover:underline">
+            {project.desc} — 
+            <a href={project.link} target="_blank" className="text-white hover:underline ml-1">
               {project.title}
             </a>
           </p>
