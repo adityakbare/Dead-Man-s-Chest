@@ -116,15 +116,15 @@ export default function Home() {
   <div className="max-w-2xl mx-auto py-20 px-4 flex justify-between items-center">
     <div className="flex space-x-8">
       <a href="mailto:adityakbare@outlook.com" className="text-white hover:text-neutral-400 transition-colors">
-        <HiOutlineMail size={18} />
+        <HiOutlineMail size={20} />
         <span className="sr-only">X</span>
       </a>
       <a href="https://www.instagram.com/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-        <FaInstagram size={18} />
+        <FaInstagram size={20} />
         <span className="sr-only">Instagram</span>
       </a>
       <a href="https://www.linkedin.com/in/adityakbare" className="text-white hover:text-neutral-400 transition-colors">
-        <FaLinkedinIn size={18} />
+        <FaLinkedinIn size={20} />
         <span className="sr-only">LinkedIn</span>
       </a>
     </div>
