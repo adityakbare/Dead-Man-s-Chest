@@ -91,10 +91,10 @@ export default function Home() {
 </div>
 
         {/* Activity */}
-        <div className="mb-16">
-          <h2 className="text-lg mt-16 mb-4">Activity</h2>
+        <div className="mb-16 mt-8">
+          <h2 className="text-lg mb-4">Activity</h2>
           <p className="text-neutral-500 text-sm mb-4">
-            I love tech, building things, and bringing logic & creativity into everything I do.
+            Exploring how technology can streamline processes and enhance creativity in the design and development space.
           </p>
 
           <div className="space-y-4">
