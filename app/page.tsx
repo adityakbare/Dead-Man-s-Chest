@@ -109,6 +109,7 @@ export default function Home() {
     ))}
   </div>
 </div>
+        </div>
 
       {/* Footer */}
       <footer className="w-full border-t border-neutral-800 mt-auto">
