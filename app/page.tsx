@@ -58,7 +58,7 @@ export default function Home() {
         images: ["Tickr.png"],
       },
       {
-        title: "Blueprint HRIS",
+        title: "Blueprint",
         desc: "2025",
         images: ["Blueprint.png"],
       },
