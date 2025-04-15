@@ -43,6 +43,7 @@ export default function Home() {
         </div>
 
         {/* Featured */}
+
 <div className="mb-20">
   <h2 className="text-lg mb-4">Featured</h2>
   <div className="space-y-10">
@@ -67,19 +68,15 @@ export default function Home() {
       },
     ].map((project, idx) => (
       <div key={idx}>
-        {/* Title with Link */}
+        {/* Title and Year */}
         <div className="mb-4">
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:underline hover:text-neutral-300 transition-colors text-sm"
-          >
-            {project.title}
-          </a>
-          <span className="text-neutral-500 ml-2">{`— ${project.desc}`}</span>
+          <p className="text-neutral-500 text-sm">
+            {project.desc} — 
+            <a href={project.link} target="_blank" className="text-white hover:underline">
+              {project.title}
+            </a>
+          </p>
         </div>
-
         {/* Images */}
         <div className="space-y-8">
           {project.images.map((img, i) => (
