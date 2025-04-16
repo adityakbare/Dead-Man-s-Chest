@@ -32,7 +32,7 @@ export default function Home() {
 
         {/* Awards */}
         <div className="mb-8">
-          <h2 className="text-lg mb-6">Education</h2>
+          <h2 className="text-sm mb-6">Education</h2>
           <div className="flex justify-between items-start border-b border-neutral-800 pb-4 mb-4">
             <div>
               <h3 className="font-medium">BA in Communication</h3>
@@ -45,7 +45,7 @@ export default function Home() {
         {/* Featured */}
 
 <div className="mb-20">
-  <h2 className="text-lg mb-4">Featured</h2>
+  <h2 className="text-sm mb-4">Featured</h2>
   <div className="space-y-10">
     {[
       {
@@ -92,7 +92,7 @@ export default function Home() {
 
         {/* Activity */}
 <div className="mb-8">
-  <h2 className="text-lg mb-4">Activity</h2>
+  <h2 className="text-sm mb-4">Activity</h2>
   <p className="text-neutral-500 text-sm">
     Developing a foundational understanding of how frontend frameworks, serverless cloud platforms, and DNS systems interact to support modern web architecture and efficient deployment workflows.
   </p>
@@ -100,7 +100,7 @@ export default function Home() {
 
 {/* Topics */}
 <div className="mb-20">
-  <h2 className="text-lg mb-4">Topics</h2>
+  <h2 className="text-sm mb-4">Topics</h2>
   <div className="space-y-4">
     {["Cloud-Based Deployment", "AI-Assisted Development", "Web Application Architecture"].map((topic, idx) => (
       <div key={idx} className="border-b border-neutral-800 pb-2">
